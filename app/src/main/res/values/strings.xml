@@ -4,4 +4,5 @@
     <string name="notify">Notificar</string>
     <string name="error_msg">Digite o intervalo</string>
     <string name="pause">Pausar</string>
+    <string name="zero_value">O campo deve ser maior que 0</string>
 </resources>
