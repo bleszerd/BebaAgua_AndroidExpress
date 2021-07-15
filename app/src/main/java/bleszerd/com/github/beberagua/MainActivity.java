@@ -129,8 +129,6 @@ public class MainActivity extends AppCompatActivity {
             }
 
             activated = !activated;
-
-            Log.d("DebugTest", "notifyClick: " + hour + " : " + minute + " : " + interval + ".");
         }
     };
 }

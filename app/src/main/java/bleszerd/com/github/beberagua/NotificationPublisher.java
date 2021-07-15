@@ -42,6 +42,7 @@ public class NotificationPublisher extends BroadcastReceiver {
         Notification.Builder builder = new Notification.Builder(context.getApplicationContext())
                 .setContentText(content)
                 .setTicker("Alerta")
+                .setDefaults(Notification.DEFAULT_SOUND)
                 .setContentIntent(intent)
                 .setAutoCancel(false)
                 .setSmallIcon(R.mipmap.ic_launcher);
